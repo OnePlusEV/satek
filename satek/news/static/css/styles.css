@@ -1,0 +1,96 @@
+/*--------------------------ALL---------------------------------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+/*--------------------------MENU--------------------------------------*/
+nav {
+    min-width: 100%;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#li-login {
+    display: none;
+}
+
+#li-reg {
+    display: none;
+}
+
+#li-logout {
+    display: none;
+}
+
+/*-------------------------NEWS---------------------------------------*/
+#article_block {
+    background-color: #B5B5B5;
+    /*!*border: 1px solid black;*!*/
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#article_title {
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+#article_image {
+    /*border: 1px solid green;*/
+    float: left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+#article_text {
+    /*border: 1px solid gray;*/
+}
+
+#publication {
+    /*border: 1px solid purple;*/
+    text-align: right;
+}
+
+/*--------------------------FORM---------------------------------------*/
+#cover {
+    margin: 60px 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+form {
+    display: none;
+    width: 30%;
+    flex-direction: column;
+}
+
+
+#btn-group {
+    justify-content: space-between;
+    display: flex;
+}
+
+.close_button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*--------------------------HOME---------------------------------------*/
+#banner{
+    margin: 20px;
+}
